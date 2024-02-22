@@ -2,26 +2,16 @@ import processing.core.PApplet;
 
 public class Sketch extends PApplet {
 	
-	
-  /**
-   * Called once at the beginning of execution, put your size all in this method
-   */
   public void settings() {
-	// put your size call here
+	  // Size of window
     size(400, 400);
   }
 
-  /** 
-   * Called once at the beginning of execution.  Add initial set up
-   * values here i.e background, stroke, fill etc.
-   */
   public void setup() {
+    // Background colour
     background(137, 206, 214);
   }
 
-  /**
-   * Called repeatedly, anything drawn to the screen goes here
-   */
   public void draw() {
 
     // Flower stem
@@ -68,10 +58,6 @@ public class Sketch extends PApplet {
     ellipse(310, 65, 50, 50);
     ellipse(300, 84, 50, 50);
     ellipse(280, 60, 50, 50);
-
-
-    
-  }
   
-  // define other methods down here.
+  }
 }
