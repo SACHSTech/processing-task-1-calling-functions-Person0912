@@ -1,19 +1,23 @@
 import processing.core.PApplet;
 
+/**
+ * A program Sketch.java that draws a flower in the middle of a field
+ * with clouds in the sky.
+ * @author: Kayla Jin
+ */
+
 public class Sketch extends PApplet {
 	
   public void settings() {
 	  
     // Size of window
     size(400, 400);
-    
   }
 
   public void setup() {
     
     // Background colour
     background(137, 206, 214);
-
   }
 
   public void draw() {
@@ -62,6 +66,5 @@ public class Sketch extends PApplet {
     ellipse(310, 65, 50, 50);
     ellipse(300, 84, 50, 50);
     ellipse(280, 60, 50, 50);
-  
   }
 }
